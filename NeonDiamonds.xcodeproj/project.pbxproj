@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C3E5132A4481FF00D01A61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5122A4481FF00D01A61 /* AppDelegate.swift */; };
+		00C3E51E2A4481FF00D01A61 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5092A4481FE00D01A61 /* GameScene.swift */; };
+		00C3E51F2A4481FF00D01A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C3E50A2A4481FF00D01A61 /* Assets.xcassets */; };
+		00C3E5332A44831100D01A61 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5322A44831100D01A61 /* HomeView.swift */; };
+		00C3E5352A44831D00D01A61 /* LeaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5342A44831D00D01A61 /* LeaderBoardView.swift */; };
+		00C3E5372A44832500D01A61 /* HowToPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5362A44832500D01A61 /* HowToPlayView.swift */; };
+		00C3E5392A44832D00D01A61 /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5382A44832D00D01A61 /* PurchaseView.swift */; };
+		00C3E53B2A44833500D01A61 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E53A2A44833500D01A61 /* QRCodeView.swift */; };
+		00C3E53D2A44833B00D01A61 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E53C2A44833B00D01A61 /* GameView.swift */; };
+		00C3E53F2A44834100D01A61 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E53E2A44834100D01A61 /* CardView.swift */; };
+		00C3E5412A44834900D01A61 /* UserRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5402A44834900D01A61 /* UserRegisterView.swift */; };
+		00C3E5432A44835000D01A61 /* WinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5422A44835000D01A61 /* WinView.swift */; };
+		00C3E5452A44835800D01A61 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5442A44835800D01A61 /* CardModel.swift */; };
+		00C3E5472A44835E00D01A61 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5462A44835E00D01A61 /* UserModel.swift */; };
+		00C3E5492A44836600D01A61 /* GameVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5482A44836600D01A61 /* GameVM.swift */; };
+		00C3E54B2A44836D00D01A61 /* UserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E54A2A44836D00D01A61 /* UserVM.swift */; };
+		00C3E54D2A44837400D01A61 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E54C2A44837400D01A61 /* PurchaseManager.swift */; };
+		00C3E54F2A44837F00D01A61 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E54E2A44837F00D01A61 /* UserDefaultManager.swift */; };
+		00C3E5512A44838800D01A61 /* QRCodeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5502A44838800D01A61 /* QRCodeVM.swift */; };
+		00C3E5532A4483B600D01A61 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5522A4483B600D01A61 /* Text.swift */; };
+		00C3E5552A4483BF00D01A61 /* GameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5542A4483BF00D01A61 /* GameButton.swift */; };
+		00C3E5572A4483C600D01A61 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5562A4483C600D01A61 /* Cardify.swift */; };
+		00C3E5592A4483D000D01A61 /* FunctionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5582A4483D000D01A61 /* FunctionButton.swift */; };
+		00C3E55B2A4483E200D01A61 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E55A2A4483E200D01A61 /* Grid.swift */; };
+		00C3E55D2A4483E800D01A61 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E55C2A4483E800D01A61 /* Array.swift */; };
+		00C3E55F2A4483EE00D01A61 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E55E2A4483EE00D01A61 /* Pie.swift */; };
+		00C3E5612A4483FB00D01A61 /* WebConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5602A4483FB00D01A61 /* WebConnector.swift */; };
+		00C3E5632A44842F00D01A61 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5622A44842F00D01A61 /* Shimmer.swift */; };
+		00C3E5652A4486CE00D01A61 /* GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5642A4486CE00D01A61 /* GameMode.swift */; };
+		00C3E5672A4486E700D01A61 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5662A4486E700D01A61 /* Sound.swift */; };
+		00C3E5692A4486F500D01A61 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5682A4486F500D01A61 /* MusicPlayer.swift */; };
+		00C3E56D2A44880600D01A61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00C3E56C2A44880600D01A61 /* GoogleService-Info.plist */; };
+		C2D7ACC3A0AFAE705E0C441C /* Pods_NeonDiamond_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2133E9D80B1D1449504A2711 /* Pods_NeonDiamond_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00C3E5092A4481FE00D01A61 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		00C3E50A2A4481FF00D01A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00C3E50F2A4481FF00D01A61 /* NeonDiamonds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeonDiamonds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C3E5122A4481FF00D01A61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00C3E5322A44831100D01A61 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		00C3E5342A44831D00D01A61 /* LeaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
+		00C3E5362A44832500D01A61 /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
+		00C3E5382A44832D00D01A61 /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
+		00C3E53A2A44833500D01A61 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		00C3E53C2A44833B00D01A61 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		00C3E53E2A44834100D01A61 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		00C3E5402A44834900D01A61 /* UserRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterView.swift; sourceTree = "<group>"; };
+		00C3E5422A44835000D01A61 /* WinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinView.swift; sourceTree = "<group>"; };
+		00C3E5442A44835800D01A61 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		00C3E5462A44835E00D01A61 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		00C3E5482A44836600D01A61 /* GameVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVM.swift; sourceTree = "<group>"; };
+		00C3E54A2A44836D00D01A61 /* UserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVM.swift; sourceTree = "<group>"; };
+		00C3E54C2A44837400D01A61 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		00C3E54E2A44837F00D01A61 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		00C3E5502A44838800D01A61 /* QRCodeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeVM.swift; sourceTree = "<group>"; };
+		00C3E5522A4483B600D01A61 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		00C3E5542A4483BF00D01A61 /* GameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButton.swift; sourceTree = "<group>"; };
+		00C3E5562A4483C600D01A61 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		00C3E5582A4483D000D01A61 /* FunctionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionButton.swift; sourceTree = "<group>"; };
+		00C3E55A2A4483E200D01A61 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		00C3E55C2A4483E800D01A61 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		00C3E55E2A4483EE00D01A61 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		00C3E5602A4483FB00D01A61 /* WebConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebConnector.swift; sourceTree = "<group>"; };
+		00C3E5622A44842F00D01A61 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
+		00C3E5642A4486CE00D01A61 /* GameMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMode.swift; sourceTree = "<group>"; };
+		00C3E5662A4486E700D01A61 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		00C3E5682A4486F500D01A61 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		00C3E56A2A44873900D01A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C3E56C2A44880600D01A61 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00C3E56E2A44A1D200D01A61 /* NeonDiamonds iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NeonDiamonds iOS.entitlements"; sourceTree = "<group>"; };
+		0974237DD0666B87CF356D53 /* Pods-NeonDiamond iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeonDiamond iOS.release.xcconfig"; path = "Target Support Files/Pods-NeonDiamond iOS/Pods-NeonDiamond iOS.release.xcconfig"; sourceTree = "<group>"; };
+		0A9C0392E82FE8C8BE2E584E /* Pods-NeonDiamond iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeonDiamond iOS.debug.xcconfig"; path = "Target Support Files/Pods-NeonDiamond iOS/Pods-NeonDiamond iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2133E9D80B1D1449504A2711 /* Pods_NeonDiamond_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeonDiamond_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C3E50C2A4481FF00D01A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D7ACC3A0AFAE705E0C441C /* Pods_NeonDiamond_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C3E5012A4481FD00D01A61 = {
+			isa = PBXGroup;
+			children = (
+				00C3E56E2A44A1D200D01A61 /* NeonDiamonds iOS.entitlements */,
+				00C3E5062A4481FE00D01A61 /* NeonDiamond Shared */,
+				00C3E5102A4481FF00D01A61 /* Products */,
+				C01B00AF60BD917DFA26EE65 /* Pods */,
+				B12C452BB2CE4EDE7CA71264 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00C3E5062A4481FE00D01A61 /* NeonDiamond Shared */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E52F2A4482C000D01A61 /* View */,
+				00C3E52E2A4482BA00D01A61 /* Model */,
+				00C3E52D2A4482B300D01A61 /* ViewModel */,
+				00C3E52C2A4482AD00D01A61 /* Modifier */,
+				00C3E52B2A4482A600D01A61 /* Audio */,
+				00C3E5282A44828F00D01A61 /* Struct */,
+				00C3E5272A44828800D01A61 /* WebPage */,
+				00C3E5262A44828100D01A61 /* AppSupport */,
+				00C3E5252A44827300D01A61 /* ShimmerAnimation */,
+				00C3E5092A4481FE00D01A61 /* GameScene.swift */,
+				00C3E50A2A4481FF00D01A61 /* Assets.xcassets */,
+				00C3E56C2A44880600D01A61 /* GoogleService-Info.plist */,
+				00C3E56A2A44873900D01A61 /* Info.plist */,
+			);
+			path = "NeonDiamond Shared";
+			sourceTree = "<group>";
+		};
+		00C3E5102A4481FF00D01A61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E50F2A4481FF00D01A61 /* NeonDiamonds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C3E5252A44827300D01A61 /* ShimmerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E5622A44842F00D01A61 /* Shimmer.swift */,
+			);
+			path = ShimmerAnimation;
+			sourceTree = "<group>";
+		};
+		00C3E5262A44828100D01A61 /* AppSupport */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E5122A4481FF00D01A61 /* AppDelegate.swift */,
+			);
+			path = AppSupport;
+			sourceTree = "<group>";
+		};
+		00C3E5272A44828800D01A61 /* WebPage */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E5602A4483FB00D01A61 /* WebConnector.swift */,
+			);
+			path = WebPage;
+			sourceTree = "<group>";
+		};
+		00C3E5282A44828F00D01A61 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E55A2A4483E200D01A61 /* Grid.swift */,
+				00C3E55C2A4483E800D01A61 /* Array.swift */,
+				00C3E52A2A44829D00D01A61 /* Button */,
+				00C3E5292A44829500D01A61 /* Shape */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		00C3E5292A44829500D01A61 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E55E2A4483EE00D01A61 /* Pie.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		00C3E52A2A44829D00D01A61 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E5642A4486CE00D01A61 /* GameMode.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		00C3E52B2A4482A600D01A61 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E5662A4486E700D01A61 /* Sound.swift */,
+				00C3E5682A4486F500D01A61 /* MusicPlayer.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		00C3E52C2A4482AD00D01A61 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E5522A4483B600D01A61 /* Text.swift */,
+				00C3E5542A4483BF00D01A61 /* GameButton.swift */,
+				00C3E5562A4483C600D01A61 /* Cardify.swift */,
+				00C3E5582A4483D000D01A61 /* FunctionButton.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		00C3E52D2A4482B300D01A61 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E5482A44836600D01A61 /* GameVM.swift */,
+				00C3E54A2A44836D00D01A61 /* UserVM.swift */,
+				00C3E54C2A44837400D01A61 /* PurchaseManager.swift */,
+				00C3E54E2A44837F00D01A61 /* UserDefaultManager.swift */,
+				00C3E5502A44838800D01A61 /* QRCodeVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		00C3E52E2A4482BA00D01A61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E5442A44835800D01A61 /* CardModel.swift */,
+				00C3E5462A44835E00D01A61 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00C3E52F2A4482C000D01A61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E5312A4482CF00D01A61 /* MainView */,
+				00C3E5302A4482C800D01A61 /* GameView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00C3E5302A4482C800D01A61 /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E53C2A44833B00D01A61 /* GameView.swift */,
+				00C3E53E2A44834100D01A61 /* CardView.swift */,
+				00C3E5402A44834900D01A61 /* UserRegisterView.swift */,
+				00C3E5422A44835000D01A61 /* WinView.swift */,
+			);
+			path = GameView;
+			sourceTree = "<group>";
+		};
+		00C3E5312A4482CF00D01A61 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E5322A44831100D01A61 /* HomeView.swift */,
+				00C3E5342A44831D00D01A61 /* LeaderBoardView.swift */,
+				00C3E5362A44832500D01A61 /* HowToPlayView.swift */,
+				00C3E5382A44832D00D01A61 /* PurchaseView.swift */,
+				00C3E53A2A44833500D01A61 /* QRCodeView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		B12C452BB2CE4EDE7CA71264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2133E9D80B1D1449504A2711 /* Pods_NeonDiamond_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C01B00AF60BD917DFA26EE65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A9C0392E82FE8C8BE2E584E /* Pods-NeonDiamond iOS.debug.xcconfig */,
+				0974237DD0666B87CF356D53 /* Pods-NeonDiamond iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00C3E50E2A4481FF00D01A61 /* NeonDiamonds iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C3E5222A4481FF00D01A61 /* Build configuration list for PBXNativeTarget "NeonDiamonds iOS" */;
+			buildPhases = (
+				2F4592F3A333D631D9D737CC /* [CP] Check Pods Manifest.lock */,
+				00C3E50B2A4481FF00D01A61 /* Sources */,
+				00C3E50C2A4481FF00D01A61 /* Frameworks */,
+				00C3E50D2A4481FF00D01A61 /* Resources */,
+				A8956FC5A6B3768269CC0429 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NeonDiamonds iOS";
+			productName = "NeonDiamond iOS";
+			productReference = 00C3E50F2A4481FF00D01A61 /* NeonDiamonds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00C3E5022A4481FD00D01A61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					00C3E50E2A4481FF00D01A61 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 00C3E5052A4481FD00D01A61 /* Build configuration list for PBXProject "NeonDiamonds" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00C3E5012A4481FD00D01A61;
+			productRefGroup = 00C3E5102A4481FF00D01A61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00C3E50E2A4481FF00D01A61 /* NeonDiamonds iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00C3E50D2A4481FF00D01A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C3E51F2A4481FF00D01A61 /* Assets.xcassets in Resources */,
+				00C3E56D2A44880600D01A61 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F4592F3A333D631D9D737CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeonDiamond iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8956FC5A6B3768269CC0429 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeonDiamond iOS/Pods-NeonDiamond iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeonDiamond iOS/Pods-NeonDiamond iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeonDiamond iOS/Pods-NeonDiamond iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00C3E50B2A4481FF00D01A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C3E5652A4486CE00D01A61 /* GameMode.swift in Sources */,
+				00C3E5352A44831D00D01A61 /* LeaderBoardView.swift in Sources */,
+				00C3E54B2A44836D00D01A61 /* UserVM.swift in Sources */,
+				00C3E53F2A44834100D01A61 /* CardView.swift in Sources */,
+				00C3E5372A44832500D01A61 /* HowToPlayView.swift in Sources */,
+				00C3E5332A44831100D01A61 /* HomeView.swift in Sources */,
+				00C3E5592A4483D000D01A61 /* FunctionButton.swift in Sources */,
+				00C3E53B2A44833500D01A61 /* QRCodeView.swift in Sources */,
+				00C3E5692A4486F500D01A61 /* MusicPlayer.swift in Sources */,
+				00C3E5532A4483B600D01A61 /* Text.swift in Sources */,
+				00C3E5612A4483FB00D01A61 /* WebConnector.swift in Sources */,
+				00C3E54D2A44837400D01A61 /* PurchaseManager.swift in Sources */,
+				00C3E5472A44835E00D01A61 /* UserModel.swift in Sources */,
+				00C3E5552A4483BF00D01A61 /* GameButton.swift in Sources */,
+				00C3E5452A44835800D01A61 /* CardModel.swift in Sources */,
+				00C3E5392A44832D00D01A61 /* PurchaseView.swift in Sources */,
+				00C3E5432A44835000D01A61 /* WinView.swift in Sources */,
+				00C3E5412A44834900D01A61 /* UserRegisterView.swift in Sources */,
+				00C3E55F2A4483EE00D01A61 /* Pie.swift in Sources */,
+				00C3E55B2A4483E200D01A61 /* Grid.swift in Sources */,
+				00C3E5672A4486E700D01A61 /* Sound.swift in Sources */,
+				00C3E51E2A4481FF00D01A61 /* GameScene.swift in Sources */,
+				00C3E5572A4483C600D01A61 /* Cardify.swift in Sources */,
+				00C3E53D2A44833B00D01A61 /* GameView.swift in Sources */,
+				00C3E5512A44838800D01A61 /* QRCodeVM.swift in Sources */,
+				00C3E5632A44842F00D01A61 /* Shimmer.swift in Sources */,
+				00C3E5492A44836600D01A61 /* GameVM.swift in Sources */,
+				00C3E55D2A4483E800D01A61 /* Array.swift in Sources */,
+				00C3E54F2A44837F00D01A61 /* UserDefaultManager.swift in Sources */,
+				00C3E5132A4481FF00D01A61 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00C3E5202A4481FF00D01A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00C3E5212A4481FF00D01A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		00C3E5232A4481FF00D01A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A9C0392E82FE8C8BE2E584E /* Pods-NeonDiamond iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "NeonDiamonds iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = CBJTUZQMUU;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "/Users/a99999999/Desktop/NeonDiamond/NeonDiamond Shared/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = NeonDiamonds;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We collect this data for analytics and special offers in the menu for visitors";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to show you personalized ads on the marketplaces.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.GamingGames;
+				PRODUCT_NAME = NeonDiamonds;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		00C3E5242A4481FF00D01A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0974237DD0666B87CF356D53 /* Pods-NeonDiamond iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "NeonDiamonds iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = CBJTUZQMUU;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "/Users/a99999999/Desktop/NeonDiamond/NeonDiamond Shared/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = NeonDiamonds;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We collect this data for analytics and special offers in the menu for visitors";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to show you personalized ads on the marketplaces.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.GamingGames;
+				PRODUCT_NAME = NeonDiamonds;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00C3E5052A4481FD00D01A61 /* Build configuration list for PBXProject "NeonDiamonds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C3E5202A4481FF00D01A61 /* Debug */,
+				00C3E5212A4481FF00D01A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C3E5222A4481FF00D01A61 /* Build configuration list for PBXNativeTarget "NeonDiamonds iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C3E5232A4481FF00D01A61 /* Debug */,
+				00C3E5242A4481FF00D01A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00C3E5022A4481FD00D01A61 /* Project object */;
+}
